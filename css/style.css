@@ -1,0 +1,180 @@
+*{
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+}
+
+/* colori */
+/* azzurro pulsanti */
+/* hsl(217deg 100% 50%) */
+
+body{
+  background-color: rgb(34, 32, 32);
+
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+}
+
+li{
+  display: inline-block;
+  text-align: center;
+  list-style-type: none;
+}
+
+a{
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+.button_standard{
+  /* border: none; */
+  background-color: rgb(0, 98, 255);
+  color: white;
+  padding: 5px;
+  font-size: 16px;
+  /* min-width: 40px;
+  min-height: 40px; */
+}
+
+
+/* * HEADER /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+header{
+  width: 100%;
+
+}
+
+.menu{
+  width: 100%;
+  height: 70px;
+  background-color: white;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  /* padding: 0 5px 0 5px; */
+  font-size: 14px;
+
+}
+
+.menu .col{
+  /* width: 35%; */
+  /* border: 1px dashed black; */
+  margin: 0 10px 0 10px;
+
+  
+}
+
+.menu .col.col_menu_center{
+  /* width: 30%; */
+}
+
+header .menu .col nav ul{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* align-items: baseline; */
+  
+}
+
+header .menu .col.col.col_menu_left nav ul li{
+  /* border: 1px dashed black; */
+  margin: 0 50px 0 0px;
+
+
+}
+
+header .menu .col.col.col_menu_right nav ul li{
+  /* border: 1px dashed black; */
+  margin: 0 0px 0 50px;
+
+
+}
+
+/* * MAIN //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+main{
+
+}
+
+
+
+
+/* * FOOTER //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+footer{
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
