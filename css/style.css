@@ -49,6 +49,7 @@ a{
   color: white;
   padding: 5px 15px;
   font-size: 16px;
+  text-align: center;
   /* min-width: 40px;
   min-height: 40px; */
 }
@@ -59,8 +60,18 @@ a{
   color: white;
   padding: 5px;
   font-size: 16px;
+  text-align: center;
   /* min-width: 40px;
   min-height: 40px; */
+}
+
+.white_button{
+background-color: white;
+color: #000000;
+padding: 5px;
+font-size: 16px;
+text-align: center;
+border: #000000 1px solid;
 }
 
 section{
@@ -141,7 +152,7 @@ header .menu .col.col.col_menu_right nav ul li{
   margin-top: 70px;
   /* padding: 0 10%; */
   /* padding-bottom: 0; */
-  
+
   /* height: 768px; */
   /* height: 581px; */
 
@@ -152,21 +163,21 @@ header .menu .col.col.col_menu_right nav ul li{
   /* max-height: 720px; */
   /* height: 100%; */
   /* max-height: 100%; */
-  
+
   /* position: relative;
   top: 90px; */
-  
-  
+
+
   /* display: flex; */
   /* justify-content: center; */
-  
+
   border: 2px dashed rgb(0, 250, 79);
 }
 
 .container_jumbo_0{
   /* background-color: rgb(181, 209, 232); */
   border: 2px dashed rgb(0, 0, 0);
-  
+
   width: 80%;
   /* height: 614px; */
   height: 634px;
@@ -283,13 +294,13 @@ header .description{
    border: 1px rgb(227, 29, 29) dashed;
 
    /* max-width: 100%; */
-   
+
    /* max-height: 100%; */
    /* max-height: 440px;
    min-height: 440px; */
    /* height: 440px; */
-   
-   
+
+
    width: 100%;
    max-height: 440px;
    /* min-width: 65%; */
@@ -317,7 +328,8 @@ main{
 
   width: 100%;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 main h2{
@@ -325,12 +337,13 @@ main h2{
   padding: 50px 0 30px 0;
 }
 
+/* * section 1 /////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 .section_1{
   width: 70%;
   padding: 5% 5%;
 
   background-color: rgb(255, 255, 255);
-  padding-bottom: 700px;
+  /* padding-bottom: 700px; */
   border: 3px solid aqua;
 
 }
@@ -357,7 +370,7 @@ main h2{
   margin-bottom: 45px;
 
   border: 1px solid #D0D0D3;
-  
+
 }
 
 .card li{
@@ -376,13 +389,13 @@ main h2{
 }
 
 .main_card{
-  
+
   display: flex;
   flex-direction: column;
   justify-content: space-around;
 
 
-  
+
   padding: 10px;
 
 }
@@ -468,44 +481,131 @@ ul.characteristics {
   font-size: 0.9rem;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* * section 2 /////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 .section_2{
+  width: 70%;
+  padding: 5% 5%;
+
+
+  background-color: rgb(255, 255, 255);
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+.img_section_2 img{
+  max-width: 570px;
+  max-height: 500px;
 
 }
 
+.section_2 .description{
+  margin-top: -170px;
+  font-size: 15px;
+  padding-top: 5px;
+  text-align: left;
+  margin-left: 40px;
+}
+
+.section_2 .description > *{
+  margin-bottom: 20px;
+}
+
+.section_2 .white_button{
+  width: 150px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* * section 3 /////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 .section_3{
 
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* * section 4 /////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 .section_4{
 
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* * section 5 /////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 .section_5{
 
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* * section 6 /////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 .section_6{
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
