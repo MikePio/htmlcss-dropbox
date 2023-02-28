@@ -9,7 +9,7 @@
 /* hsl(217deg 100% 50%) */
 
 body{
-  background-color: rgb(34, 32, 32);
+  background-color: rgb(255, 255, 255);
 
   /* font-family: Arial, Helvetica, sans-serif; */
 
@@ -59,6 +59,11 @@ section{
 header{
   width: 100%;
   background-color: rgb(181, 209, 232);
+
+  /* height: 820px; */
+
+  border: 3px blueviolet dashed;
+
 
 
 }
@@ -110,36 +115,55 @@ header .menu .col.col.col_menu_right nav ul li{
 
 }
 
-/* .section_0{
-  background-color: rgb(181, 209, 232);
-  width: 100%;
 
-  display: flex;
-  justify-content: center;
-} */
 
 .jumbotron{
   background-color: rgb(181, 209, 232);
   /* width: 85%; */
-  width: 80%;
+  width: 100%;
   /* margin: 0 auto; */
   /* min-height: 730px; */
   /* height: 730px; */
   /* margin-top: 70px; */ /* * non necessario perché c'è abbastanza padding*/
-  padding: 10%;
-  padding-bottom: 0;
-
+  margin-top: 70px;
+  /* padding: 0 10%; */
+  /* padding-bottom: 0; */
+  
   /* height: 768px; */
-  height: 581px;
+  /* height: 581px; */
 
-
-
-
+  min-height: 610px;
+  height: 50vw;
+  max-height: 720px;
+  /* height: 720px; */
+  /* max-height: 720px; */
+  /* height: 100%; */
+  /* max-height: 100%; */
+  
+  /* position: relative;
+  top: 90px; */
+  
+  
   /* display: flex; */
   /* justify-content: center; */
-
-  /* border: 1px dashed black; */
+  
+  border: 2px dashed rgb(0, 250, 79);
 }
+
+.container_jumbo_0{
+  /* background-color: rgb(181, 209, 232); */
+  border: 2px dashed rgb(0, 0, 0);
+  
+  width: 80%;
+  /* height: 614px; */
+  height: 634px;
+  position: relative;
+  /* top: 135px;  */
+  top: 150px;
+  padding: 0 10%;
+
+}
+
 
 .container_jumbo{
   display: flex;
@@ -148,13 +172,22 @@ header .menu .col.col.col_menu_right nav ul li{
   /* * align-items: center; */
   justify-content: flex-start;
   align-items: flex-start;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
 
   /* height: 768px; */
-  height: 423px;
+  /* * PRIMA */
+  /* height: 470px; */
+  height: 440px;
+  /* height: 100%; */
+
+  /* *forse non necessario */
+  width: 100%;
+
+  /* height: 380px; */
 
 
-  border: 1px dashed black;
+
+  border: 1px solid black;
 }
 
 .jumbotron h1{
@@ -189,7 +222,7 @@ header .menu .col.col.col_menu_right nav ul li{
   height: 310px;
   /* margin-right: 20px; */
   padding-right: 20px;
-  margin-top: 30px;
+  /* margin-top: 30px; */
 
   display: flex;
   flex-direction: column;
@@ -213,10 +246,10 @@ header .description{
 
 
 .container_jumbo .col.col_jumbo_right{
-  /* width: 65%; */
-  max-width: 65%; /* l'immgaine non copre il 65% quindi questo non è molto utile in questo caso*/
+  /* max-width: 65%; l'immagine non copre il 65% quindi questo non è molto utile in questo caso */
 
-
+  width: 68%;
+  height: 100%;
 
   border: 1px dashed black;
 
@@ -225,19 +258,34 @@ header .description{
 
 .col_jumbo_right img{
   /* *dimensione standard del contenitore dell'immagine */
-  width: 730px; 
+  /* width: 730px;  */
+  /* width: 100%; */
 
-  position: relative;
-     top: 30px;
+
+
+  /* position: relative;
+     top: 30px; */
    /* ! top: 60px; */
 
-   border: 1px black dashed;
+   border: 1px rgb(227, 29, 29) dashed;
 
-}
+   /* max-width: 100%; */
+   
+   /* max-height: 100%; */
+   /* max-height: 440px;
+   min-height: 440px; */
+   /* height: 440px; */
+   
+   
+   width: 100%;
+   max-height: 440px;
+   /* min-width: 65%; */
+   /* height: 75%; */
+  }
 
-.img_jumbo{
-  /* * l'immagine si regola al 100% del contenitore successivo*/
-  max-width: 100%;
+  .img_jumbo{
+    /* * l'immagine si regola al 100% del contenitore successivo*/
+    /* max-width: 100%; */
 
 }
 
@@ -254,16 +302,71 @@ header .description{
 /* * MAIN //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 main{
 
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+main h2{
+  font-size: 35px;
+  padding: 50px 0;
 }
 
 .section_1{
-  width: 100%;
+  width: 70%;
+  padding: 5% 5%;
 
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   padding-bottom: 700px;
+  border: 3px solid aqua;
+
+}
+
+.section_1 span{
+  padding-left: 5px;
+  margin-right: 10px;
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.section_2{
+
+}
+
+.section_3{
+
+}
+
+.section_4{
+
+}
+
+.section_5{
+
+}
+
+.section_6{
+
+}
 
 
 
