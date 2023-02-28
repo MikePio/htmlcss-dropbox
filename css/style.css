@@ -19,6 +19,19 @@ body{
   color: black;
 }
 
+h3{
+  font-size: 30px;
+
+}
+
+h4{
+  font-size: 18px;
+
+}
+.grey_color{
+  color: gray;
+}
+
 li{
   display: inline-block;
   text-align: center;
@@ -309,7 +322,7 @@ main{
 
 main h2{
   font-size: 35px;
-  padding: 50px 0;
+  padding: 50px 0 30px 0;
 }
 
 .section_1{
@@ -327,7 +340,133 @@ main h2{
   margin-right: 10px;
 }
 
+.container_section_1{
+  display: flex;
+  justify-content: space-between;
 
+
+}
+
+
+.card{
+
+  width: 300px;
+  height: 950px;
+
+  margin-top: 20px;
+  margin-bottom: 45px;
+
+  border: 1px solid #D0D0D3;
+  
+}
+
+.card li{
+  text-align: left;
+}
+
+.container_section_1 .card li span > a{
+  color: #1B71FF;
+  text-decoration: underline;
+}
+
+.head_card{
+  border: 1px solid #D0D0D3;
+  text-align: center;
+  padding: 5px;
+}
+
+.main_card{
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+
+  
+  padding: 10px;
+
+}
+
+.card .main_card h3{
+  margin-bottom: 20px;
+}
+
+.card .main_card h4{
+  margin-bottom: 70px;
+}
+
+.main_card ul{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.main_card .users{
+  margin-bottom: 20px;
+}
+
+.main_card .storage{
+  margin-bottom: 20px;
+
+}
+
+.main_card .functions{
+  margin-bottom: 30px;
+
+}
+
+.card .main_card .button_standard{
+  margin: 0 9% 20px 9%;
+
+}
+
+.main_card .buy_now{
+  margin-bottom: 20px;
+
+
+}
+
+.main_card hr{
+  width: 50px;
+  margin-left: 10px;
+  margin-bottom: 30px;
+
+}
+
+.main_card .characteristics h4{
+  margin: 0;
+}
+
+ul.characteristics {
+  /* * flex ereditato */
+  justify-content: space-around;
+
+  height: 350px;
+}
+
+.fa-check{
+  color: #1B71FF;
+}
+
+.horizontal_card{
+  width: 100%;
+  border: 1px solid #D0D0D3;
+
+}
+
+.row_card{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 15px;
+
+}
+
+.horizontal_card p{
+  margin: 20px 0 5px 0;
+  font-size: 0.9rem;
+}
 
 
 
