@@ -85,7 +85,7 @@ header{
   /* border: 1px dashed black; */
   margin: 0 10px 0 10px;
 
-  
+
 }
 
 header .menu .col nav ul{
@@ -93,7 +93,7 @@ header .menu .col nav ul{
   justify-content: space-around;
   align-items: center;
   /* align-items: baseline; */
-  
+
 }
 
 header .menu .col.col.col_menu_left nav ul li{
@@ -106,14 +106,14 @@ header .menu .col.col.col_menu_left nav ul li{
 header .menu .col.col.col_menu_right nav ul li{
   /* border: 1px dashed black; */
   margin: 0 0px 0 50px;
-  
-  
+
+
 }
 
 /* .section_0{
   background-color: rgb(181, 209, 232);
   width: 100%;
-  
+
   display: flex;
   justify-content: center;
 } */
@@ -131,28 +131,30 @@ header .menu .col.col.col_menu_right nav ul li{
 
   /* height: 768px; */
   height: 581px;
-  
-  
-  
-  
+
+
+
+
   /* display: flex; */
   /* justify-content: center; */
-  
+
   /* border: 1px dashed black; */
 }
 
 .container_jumbo{
   display: flex;
   /*  justify-content: left; */
-  justify-content: space-between;
-  align-items: center;
+  /* * justify-content: space-between; */
+  /* * align-items: center; */
+  justify-content: flex-start;
+  align-items: flex-start;
   flex-wrap: wrap;
-  
+
   /* height: 768px; */
   height: 423px;
-  
-  
-  /* border: 1px dashed black; */
+
+
+  border: 1px dashed black;
 }
 
 .jumbotron h1{
@@ -160,30 +162,42 @@ header .menu .col.col.col_menu_right nav ul li{
   font-weight: 700;
   text-align: left;
 
-  /* border: 1px dashed black; */
-  
-  
-  
+  border: 1px dashed black;
+
+
+
 }
 
-.container_jumbo .col.col_jumbo_left{
-  
+/* * colonna prima */
+/* .container_jumbo .col.col_jumbo_left{
+
   max-width: 30%;
   display: flex;
   flex-direction: column;
-  /* justify-content: flex-start;
-  align-items: flex-start;   */
-  /* flex-wrap: wrap; */
   align-items: flex-start;
   justify-content: space-around;
-  /* margin-bottom: 5px; */
-  
-  /* min-height: 340px; */
-  /* min-height: 422px; */
-  height: 350px;
-   padding-bottom: 72px;
 
-  /* border: 1px dashed black; */
+  height: 350px;
+     padding-bottom: 72px;
+
+  border: 1px dashed black;
+} */
+
+/* * colonna dopo */
+.container_jumbo .col.col_jumbo_left{
+  max-width: 30%;
+  height: 310px;
+  /* margin-right: 20px; */
+  padding-right: 20px;
+  margin-top: 30px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  /*nuovo*/
+  justify-content: space-between;
+
+  border: 1px dashed black;
 }
 
 header .description{
@@ -200,53 +214,31 @@ header .description{
 
 .container_jumbo .col.col_jumbo_right{
   /* width: 65%; */
-  max-width: 65%;
-  
-  
-  
-  
-  /* border: 1px dashed black; */
+  max-width: 65%; /* l'immgaine non copre il 65% quindi questo non è molto utile in questo caso*/
+
+
+
+  border: 1px dashed black;
 
 
 }
 
 .col_jumbo_right img{
-  width: 730px;
-                      /* height: 430px; */
-  /* height: 455px; */
-  /* padding-right: 10%; */
-                      /* margin-left: 5%; */
-
-  /* position: relative;
-  bottom: -80px;
-  left: -50px; */
-
-  /* left: 120px; */
-  /* z-index: 0; */
+  /* *dimensione standard del contenitore dell'immagine */
+  width: 730px; 
 
   position: relative;
-  /* bottom: -80px; */
-   top: 30px;
-  /* ! top: 60px; */
+     top: 30px;
+   /* ! top: 60px; */
+
+   border: 1px black dashed;
 
 }
 
 .img_jumbo{
-              /* width: 65%;
-              height: 45%;
-              max-width: 730px;
-              max-height: 430px; */
-
-  /* top: 110px; */
-
-  /* height: 400px; */
+  /* * l'immagine si regola al 100% del contenitore successivo*/
   max-width: 100%;
-  /* object-fit: contain;
-  overflow: hidden; */
-  
-  /* height: 417px; */
-  /* max-height: 417px; */
-  /* left: -50px; */
+
 }
 
 
