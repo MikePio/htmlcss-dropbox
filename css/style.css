@@ -597,12 +597,10 @@ ul.characteristics {
 .container_section_4{
   display: flex;
   height: 30vw;
-
+  
   /* width: 100%; */
   
-  
   border: #000000 1px dashed;
-  margin-bottom: 100px; /*! PROVVISORIO DA ELIMINAREEEEEEEEEEEEEEEEEEEEEEEEEEE*/
 }
 
 
@@ -721,9 +719,28 @@ ul.characteristics {
 }
 
 
+/* * container 2 section 4 ____________________________________________________ */
+.container_2_section_4{
+  background-color: #B4D0E7;
+  height: 328px;
+  
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  
+}
 
+.container_2_section_4 h2{
+  color: #61082B;
 
+}
 
+.container_2_section_4 .white_button a{
+  color: #000000;
+  text-decoration: none;
+  padding: 5px 25px;
+
+}
 
 
 
@@ -739,6 +756,9 @@ ul.characteristics {
 
 }
 
+.section_5 li{
+  display: block;
+}
 
 
 
