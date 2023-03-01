@@ -1,7 +1,7 @@
 *{
   margin: 0;
   padding: 0;
-  /* box-sizing: border-box; */
+  box-sizing: border-box;
 }
 
 /* colori */
@@ -76,6 +76,13 @@ border: #000000 1px solid;
 
 section{
   background-color: white;
+}
+
+hr{
+  width: 50px;
+  margin-bottom: 30px;
+  color: rgb(208, 208, 211);
+  border-style: solid;
 }
 
 
@@ -432,20 +439,14 @@ main h2{
 }
 
 .card .main_card .button_standard{
-  margin: 0 9% 20px 9%;
+  margin: 0 6% 20px 6%;
+  max-width: 255px;
 
 }
 
 .main_card .buy_now{
   margin-bottom: 20px;
 
-
-}
-
-.main_card hr{
-  width: 50px;
-  margin-left: 10px;
-  margin-bottom: 30px;
 
 }
 
@@ -595,39 +596,91 @@ ul.characteristics {
 
 .container_section_4{
   display: flex;
-  justify-content: space-between;
-  width: 100%;
+  height: 30vw;
 
+  /* width: 100%; */
   
   
   border: #000000 1px dashed;
   margin-bottom: 100px; /*! PROVVISORIO DA ELIMINAREEEEEEEEEEEEEEEEEEEEEEEEEEE*/
 }
 
-/* * box_left ______________________________________________________________________________________________________________*/
-.box_left {
-  width: 30%;
-  /* * height "ereditata" da box_center  */
 
-  overflow: auto;
+.row_collaborations{
+  display: flex;
+  height: 50%;
+}
 
+.collaboration{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: #1B71FF; */
+}
+
+.collaboration img{
+  width: 70%;
+  /* * Per cambaire il colore del file .svg in bianco ( https://codepen.io/sosuke/pen/Pjoqqp )  */
+  filter: invert(100%) sepia(13%) saturate(7477%) hue-rotate(181deg) brightness(110%) contrast(95%);
 
   border: #000000 1px dashed;
 }
 
+/* * box_left ______________________________________________________________________________________________________________*/
+.box_left {
+  width: 30vw;
+  height: 30vw;
+}
+
+
+.designit_collaboration{
+  background-color: #A2D39B;
+
+}
+
+.asu_collaboration{
+  background-color: #61082B;
+  
+}
+
+.uf_collaboration{
+  background-color: #0093CE;
+  
+}
+
+.topps_collaboration{
+  background-color: #FF1C1C;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
 /* * box_center ______________________________________________________________________________________________________________*/
 .box_center {
-  width: 40%;
-  height: 440px;
+  width: 40vw;
+  height: 30vw;
   overflow: auto;
 
   padding: 30px;
 
+  background-color: #F5F5F5;
+
 
   border: #000000 1px dashed;
 }
 
-.box_center > * {
+.box_center > *:not(hr) {
   padding-bottom: 30px;
 }
 
@@ -637,26 +690,35 @@ ul.characteristics {
 
 /* * box_right ______________________________________________________________________________________________________________*/
 .box_right{
-  width: 30%;
-
-  /* * height "ereditata" da box_center  */
-
-  overflow: auto;
-
-
-
+  width: 30vw;
+  height: 30vw;
 
   border: #000000 1px dashed;
+}
+
+.wbr_collaboration{
+  background-color: #D5001F;
+
+
+}
+
+.hearst_collaboration{
+
+  background-color: #B4D0E7;
 
 }
 
 
+.lonley_collaboration{
+  background-color: #0D2481;
 
 
+}
 
+.clear_collaboration{
+  background-color: #FFD830;
 
-
-
+}
 
 
 
