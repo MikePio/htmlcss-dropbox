@@ -151,6 +151,9 @@ header .menu .col.col.col_menu_right nav ul li{
 
 
 .jumbotron{
+  display: flex;
+  justify-content: center;
+
   background-color: rgb(181, 209, 232);
   /* width: 85%; */
   width: 100%;
@@ -188,7 +191,7 @@ header .menu .col.col.col_menu_right nav ul li{
   /* background-color: rgb(181, 209, 232); */
   border: 2px dashed rgb(0, 0, 0);
 
-  width: 80%;
+  width: 100%;
   /* height: 614px; */
   height: 634px;
   position: relative;
@@ -373,7 +376,7 @@ main h2{
 
 .card{
 
-  width: 300px;
+  width: 30%;
   min-height: 950px;
 
   margin-top: 30px;
@@ -439,7 +442,8 @@ main h2{
 }
 
 .card .main_card .button_standard{
-  margin: 0 6% 20px 6%;
+  margin: 0 auto 20px;
+  /* margin: 0 auto 20px auto; */
   max-width: 255px;
 
 }
@@ -580,7 +584,9 @@ ul.characteristics {
 
 .head_section_4{
   width: 70%;
-  padding: 15%;
+  padding: 5% 5%;
+  margin: 0 auto;
+  /* padding: 15%; */
   text-align: left;
 
   border: #000000 1px dashed;
@@ -596,13 +602,20 @@ ul.characteristics {
 
 .container_section_4{
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   height: 30vw;
-  
+
   /* width: 100%; */
-  
+
   border: #000000 1px dashed;
 }
 
+.box_collaborations{
+  display: flex;
+
+}
 
 .row_collaborations{
   display: flex;
@@ -639,12 +652,12 @@ ul.characteristics {
 
 .asu_collaboration{
   background-color: #61082B;
-  
+
 }
 
 .uf_collaboration{
   background-color: #0093CE;
-  
+
 }
 
 .topps_collaboration{
@@ -723,11 +736,26 @@ ul.characteristics {
 .container_2_section_4{
   background-color: #B4D0E7;
   height: 328px;
-  
+  width: 100%;
+
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
-  
+
+  border: #000000 1px dashed;
+
+}
+
+.little_container_2_section_4{
+  width: 70%;
+  margin: 5% auto;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  border: #000000 1px dashed;
+
 }
 
 .container_2_section_4 h2{
@@ -753,37 +781,47 @@ ul.characteristics {
 
 /* * section 5 /////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 .section_5{
+  width: 70%;
+  /* padding: 5% 5%; */
 
+  background-color: rgb(255, 255, 255);
+
+  border: #000000 1px dashed;
+
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  align-items: flex-start;
+
+
+
+}
+
+.section_5 h3{
+  font-size: 28px;
+  padding: 50px 0 30px 0;
+}
+
+.section_5 ul{
+width: 100%;
 }
 
 .section_5 li{
-  display: block;
-}
+  /* display: block; */
+
+  display: flex;
+  justify-content: space-between;
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-/* * section 6 /////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
-.section_6{
+  padding: 30px 0;
+  border-top: rgb(208, 208, 211) 1px solid;
+  border-bottom: rgb(208, 208, 211) 1px solid;
 
 }
 
-
-
-
-
-
-
+.fa-chevron-down{
+  padding-right: 40px;
+}
 
 
 
@@ -801,12 +839,56 @@ ul.characteristics {
 
 /* * FOOTER //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 footer{
+  padding: 8%;
+  padding-bottom: 3%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: left;
+
+  background-color: #000000;
+}
+
+.container_footer{
+  display: flex;
+  /* justify-content: space-around; */
+  align-items: center;
+  color: white;
+}
+
+footer ul{
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-around; */
+  align-items: flex-start;
+
+  margin: 0 100px 100px 0;
+}
+
+footer ul li h4{
+  margin-bottom: 10px;
+}
+
+footer ul li {
+  margin-bottom: 10px;
+}
+
+footer ul li a{
+  font-size: small;
+  text-align: left;
+  color: white;
+}
+
+footer hr, footer div{
+  color: #969696;
+  font-size: small;
 
 }
 
-
-
-
+footer .fa-chevron-up{
+  font-size: smaller;
+}
 
 
 
